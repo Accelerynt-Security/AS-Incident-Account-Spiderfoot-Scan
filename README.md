@@ -55,9 +55,9 @@ In the **Parameters** section:
 
 * **Playbook Name**: This can be left as "**AS-Incident-Spiderfoot-Scan**" or you may change it.  
 
-* **Spiderfoot Subdomain**: Enter the name of the unique subdomain referenced in [Spiderfoot Subdomain](https://github.com/AS-Incident-Spiderfoot-Scan#spiderfoot-subdomain).You do not need to include "https://".
+* **Spiderfoot Subdomain**: Enter the name of the unique subdomain referenced in [Spiderfoot Subdomain](https://github.com/Accelerynt-Security/AS-Alert-Spiderfoot-Scan#spiderfoot-subdomain). You do not need to include "https://".
 
-* **Spiderfoot API Key**: Enter your Spiderfoot API key referenced in [Spiderfoot API Key](https://github.com/Accelerynt-Security/AS-Incident-Spiderfoot-Scan#spiderfoot-api-key).
+* **Spiderfoot API Key**: Enter your Spiderfoot API key referenced in [Spiderfoot API Key](https://github.com/Accelerynt-Security/AS-Alert-Spiderfoot-Scan#spiderfoot-api-key).
 
 * **Email Addresses**:  Enter the desired email addresses here. If entering more than one, separate with a semicolon. 
 
