@@ -36,12 +36,12 @@ To configure and deploy this playbook:
  
 Open your browser and ensure you are logged into your Microsoft Sentinel workspace. In a separate tab, open the link to our playbook on the Accelerynt Security GitHub Repository:
 
-https://github.com/Accelerynt-Security/AS-Alert-Spiderfoot-Scan
+https://github.com/Accelerynt-Security/AS-Incident-Spiderfoot-Scan
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Alert-Spiderfoot-Scan%2Fmain%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Incident-Spiderfoot-Scan%2Fmain%2Fazuredeploy.json" target="_blank">
     <img src="https://aka.ms/deploytoazurebutton""/>
 </a>
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Alert-Spiderfoot-Scan%2Fmaster%2Fazuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAccelerynt-Security%2FAS-Incident-Spiderfoot-Scan%2Fmaster%2Fazuredeploy.json" target="_blank">
 <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazuregov.png"/>
 </a>                                                 
 
@@ -55,9 +55,9 @@ In the **Parameters** section:
 
 * **Playbook Name**: This can be left as "**AS-Incident-Spiderfoot-Scan**" or you may change it.  
 
-* **Spiderfoot Subdomain**: Enter the name of the unique subdomain referenced in [Spiderfoot Subdomain](https://github.com/Accelerynt-Security/AS-Alert-Spiderfoot-Scan#spiderfoot-subdomain). You do not need to include "https://".
+* **Spiderfoot Subdomain**: Enter the name of the unique subdomain referenced in [Spiderfoot Subdomain](https://github.com/Accelerynt-Security/AS-Incident-Spiderfoot-Scan#spiderfoot-subdomain). You do not need to include "https://".
 
-* **Spiderfoot API Key**: Enter your Spiderfoot API key referenced in [Spiderfoot API Key](https://github.com/Accelerynt-Security/AS-Alert-Spiderfoot-Scan#spiderfoot-api-key).
+* **Spiderfoot API Key**: Enter your Spiderfoot API key referenced in [Spiderfoot API Key](https://github.com/Accelerynt-Security/AS-Incident-Spiderfoot-Scan#spiderfoot-api-key).
 
 * **Email Addresses**:  Enter the desired email addresses here. If entering more than one, separate with a semicolon. 
 
