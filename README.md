@@ -25,15 +25,21 @@ The following items are required under the template settings during deployment:
 
 #### Spiderfoot Subdomain
  
-Once you have logged into your Spiderfoot account, take note of your unique subdomain, as it is needed to make API calls. This would be "**example**" in "**example.hx.spiderfoot.net**".
+Navigate to https://login.hx.spiderfoot.net/signin and sign into your Spiderfoot account.
+
+Take note of your unique subdomain, as it is needed to make API calls. This would be "**example**" in "**example.hx.spiderfoot.net**".
 
 ![Spiderfoot_Subdomain_1](Images/Spiderfoot_Subdomain_1.png)
 
 #### Spiderfoot API Key
  
- Log into your Spiderfoot account and in the top right-hand corner under your name, click the "**API Key**" option.
+ From your authenticated Spiderfoot session, navigate to the top right-hand corner under your name and click the "**API Key**" option.
  
 ![Spiderfoot_API_Key_1](Images/Spiderfoot_API_Key_1.png)
+
+This will generate an API key. Take note of the value, as it will be needed for deployment.
+
+![Spiderfoot_API_Key_2](Images/Spiderfoot_API_Key_2.png)
 
 
 #### Create an Azure Key Vault Secret:
