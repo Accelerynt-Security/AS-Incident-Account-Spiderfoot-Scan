@@ -144,14 +144,12 @@ Select a workspace, then click on "**Incidents**" in the left menu blade, locate
 
 From there you can select an incident that has one or more account entities.
 
-![Spiderfoot_Run_Playbook_2](Images/Spiderfoot_Run_Playbook_2.png)
-
 Click the "**Actions**" dropdown button in the bottom right-hand corner. Then click "**Run playbook**".
 
-![Spiderfoot_Run_Playbook_3](Images/Spiderfoot_Run_Playbook_3.png)
+![Spiderfoot_Run_Playbook_2](Images/Spiderfoot_Run_Playbook_2.png)
 
 Enter "**AS-Incident-Spiderfoot-Scan**" into the search bar, then click "**Run**".
 
-![Spiderfoot_Run_Playbook_4](Images/Spiderfoot_Run_Playbook_4.png)
+![Spiderfoot_Run_Playbook_3](Images/Spiderfoot_Run_Playbook_3.png)
 
 The playbook will run until the Spiderfoot scan it initiates is completed. Once the scan is finished, an email will be sent to the addresses specified in the deployment parameters. The email will contain the account entities pulled from the incident, the modules used in the Spiderfoot scan, and a link to the completed Spiderfoot report.
