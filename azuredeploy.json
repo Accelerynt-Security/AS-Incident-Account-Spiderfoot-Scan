@@ -49,6 +49,7 @@
     },
     "variables": {
         "azuresentinel": "[concat('azuresentinel-', parameters('PlaybookName'))]",
+        "keyvault": "[concat('keyvault-', parameters('PlaybookName'))]",
         "office365": "[concat('office365-', parameters('PlaybookName'))]"
     },
     "resources": [
