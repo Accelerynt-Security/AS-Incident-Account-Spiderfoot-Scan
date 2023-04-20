@@ -33,7 +33,7 @@ Take note of your unique subdomain, as it is needed to make API calls. This woul
 
 #### Spiderfoot API Key
  
- From your authenticated Spiderfoot session, navigate to the top right-hand corner under your name and click the "**API Key**" option.
+From your authenticated Spiderfoot session, navigate to the top right-hand corner under your name and click the "**API Key**" option.
  
 ![Spiderfoot_API_Key_1](Images/Spiderfoot_API_Key_1.png)
 
