@@ -50,7 +50,7 @@ Navigate to an existing Key Vault or create a new one. From the Key Vault overvi
 
 ![Spiderfoot_Key_Vault_1](Images/Spiderfoot_Key_Vault_1.png)
 
-Choose a name for the secret, such as "**AS-Incident-Spiderfoot-Scan-API-Key**", and enter the Spiderfoot API key copied previously in the [previous section](https://github.com/Accelerynt-Security/AS-Incident-Spiderfoot-Scan#spiderfoot-api-key). All other settings can be left as is. Click "**Create**". 
+Choose a name for the secret, such as "**AS-Incident-Spiderfoot-Scan**", and enter the Spiderfoot API key copied previously in the [previous section](https://github.com/Accelerynt-Security/AS-Incident-Spiderfoot-Scan#spiderfoot-api-key). All other settings can be left as is. Click "**Create**". 
 
 ![Spiderfoot_Key_Vault_2](Images/Spiderfoot_Key_Vault_2.png)
 
@@ -86,7 +86,7 @@ In the **Parameters** section:
 
 * **Secret Name**: Enter the name of the Key Vault Secret created in [Create an Azure Key Vault Secret](https://github.com/Accelerynt-Security/AS-Incident-Spiderfoot-Scan#create-an-azure-key-vault-secret).
 
-* **Email Addresses**:  Enter the desired email addresses here. If entering more than one, separate with a semicolon.
+* **Email Addresses**: Enter the desired email addresses here. If entering more than one, separate with a semicolon.
 
 Towards the bottom, click on "**Review + create**". 
 
@@ -97,9 +97,20 @@ Once the resources have validated, click on "**Create**".
 ![Spiderfoot_Deploy_2](Images/Spiderfoot_Deploy_2.png)
 
 The resources should take around a minute to deploy. Once the deployment is complete, you can expand the "**Deployment details**" section to view them.
-To view the deployed Logic App, click the resource that corresponds to it.
+
+The resource labled "**office365-AS-Incident-Spiderfoot-Scan**" will need to be authorized before the playbook can be run successfully. Open the corresponding resource in a new tab.
 
 ![Spiderfoot_Deploy_3](Images/Spiderfoot_Deploy_3.png)
+
+Click the indicated error message bar, then click the "**Authorize**" button on the "**Edit API connection**" window that appears to the right.
+
+![Spiderfoot_Deploy_4](Images/Spiderfoot_Deploy_4.png)
+
+When prompted, enter your credemtials, then click the "**Save**" button in the "**Edit API connection**"" window. This tab can be closed now.
+
+Returning to the deployments page, to view the deployed Logic App, click the resource that corresponds to it.
+
+![Spiderfoot_Deploy_5](Images/Spiderfoot_Deploy_5.png)
 
 #
 ### Granting Access to Azure Key Vault
