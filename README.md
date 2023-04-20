@@ -90,7 +90,7 @@ In the **Parameters** section:
 
 Towards the bottom, click on "**Review + create**". 
 
-![Spiderfoot_Deploy_1]](Images/Spiderfoot_Deploy_1.png)
+![Spiderfoot_Deploy_1](Images/Spiderfoot_Deploy_1.png)
 
 Once the resources have validated, click on "**Create**".
 
