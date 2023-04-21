@@ -100,7 +100,7 @@ Once the resources have validated, click on "**Create**".
 
 The resources should take around a minute to deploy. Once the deployment is complete, you can expand the "**Deployment details**" section to view them.
 
-The resource labled "**office365-AS-Incident-Spiderfoot-Scan**" will need to be authorized before the playbook can be run successfully. Open the corresponding resource in a new tab.
+The resource labeled "**office365-AS-Incident-Spiderfoot-Scan**" will need to be authorized before the playbook can be run successfully. Open the corresponding resource in a new tab.
 
 ![Spiderfoot_Deploy_3](Images/Spiderfoot_Deploy_3.png)
 
@@ -108,7 +108,7 @@ Click the indicated error message bar, then click the "**Authorize**" button on 
 
 ![Spiderfoot_Deploy_4](Images/Spiderfoot_Deploy_4.png)
 
-When prompted, enter your credemtials, then click the "**Save**" button in the "**Edit API connection**"" window. This tab can be closed now.
+When prompted, enter your credentials, then click the "**Save**" button in the "**Edit API connection**" window. This tab can be closed now.
 
 Returning to the deployments page, to view the deployed Logic App, click the resource that corresponds to it.
 
