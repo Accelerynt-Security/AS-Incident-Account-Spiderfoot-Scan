@@ -11,6 +11,8 @@ This playbook is intended to be run from a Microsoft Sentinel incident. It will 
 
 ![Spiderfoot_Demo_1](Images/Spiderfoot_Demo_1.png)
 
+![Spiderfoot_Demo_2](Images/Spiderfoot_Demo_2.png)
+
 #
 ### Requirements
 
