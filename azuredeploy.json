@@ -345,7 +345,7 @@
                             "type": "ApiConnection",
                             "inputs": {
                                 "body": {
-                                    "Body": "<p>Scan on the following targets is complete:<br>\n@{variables('Scan Targets')}<br>\n<br>\n<br>\nThese entities were run against the following modules:<br>\nHaveIBeenPwned<br>\n<br>\nSpiderfoot report:<br>\nhttps://@{concat(parameters('SpiderfootSubdomain'), '/scaninfo?id=', variables('Scan ID'))}<br>\n</p>"
+                                    "Body": "<p>Scan on the following targets is complete:<br>\n@{variables('Scan Targets')}<br>\n<br>\n<br>\nThese entities were run against the following modules:<br>\nHaveIBeenPwned<br>\n<br>\nSpiderfoot report:<br>\nhttps://@{concat(parameters('SpiderfootSubdomain'), '/scaninfo?id=', variables('Scan ID'))}<br>\n</p>",
                                     "Subject": "Spiderfoot Scan Report ",
                                     "To": "[parameters('RecipientEmail')]"
                                 },
